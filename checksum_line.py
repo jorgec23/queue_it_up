@@ -35,4 +35,5 @@ def checksum_line(start, num_line):
     return checksum
 checksum_line(0,10000)
 
+
 print("---%s total seconds ---" % (time.time()-start_time))
