@@ -13,7 +13,7 @@ def checksum_line(start, length):
 
     return checksum
 
-ck = checksum_line(0,20000)
+ck = checksum_line(0,10000)
 print(ck)
 
 print("---%s total seconds ---" % (time.time()-start_time))
