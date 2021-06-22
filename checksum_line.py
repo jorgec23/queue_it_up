@@ -33,7 +33,7 @@ def checksum_line(start, num_line):
         checksum = checksum^ind
 
     return checksum
-checksum_line(0,10000)
+checksum_line(0,1000)
 
 
 print("---%s total seconds ---" % (time.time()-start_time))
